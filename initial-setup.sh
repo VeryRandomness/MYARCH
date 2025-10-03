@@ -14,6 +14,9 @@ echo "--- STARTING AUTOMATED ARCH CONFIGURATION ---"
 sleep $Time
 # This just displays a message for 5 seconds
 
+sudo sed -i '/#Misc/aILoveCandy' /etc/pacman.conf
+# The most imporant comman. This makes the progress bars Pacman
+
 echo "Installing utilities: Sudo, git, and stow..."
 sleep $Time
 # This tells you what is beings installed and waits 5 seconds
