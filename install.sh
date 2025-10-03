@@ -43,7 +43,7 @@ sleep $TIME
 sudo pacman -S --noconfirm \
   waybar fastfetch obsidian swaync syncthing \
   kitty nautilus wofi hyprpaper hypridle hyprshot btop \
-  spotify-launcher otf-font-awesome --needed 
+  spotify-launcher otf-font-awesome lxsession --needed 
 # That big chunk downloads all the pacman packages needed
 yay -S --noconfirm \
   sublime-text-4 anydesk-bin brave-bin
@@ -58,7 +58,7 @@ stow */
 echo "Setting necessary execution permissions for scripts..."
 sleep $TIME
 # Uses the symlinked paths created by Stow
-chmod +x ~/.config/hypr/scripts/Weather.sh
+chmod +x ~/.config/hypr/scripts/get_weather.sh
 chmod +x ~/.config/hypr/startup.sh
 chmod +x ~/.config/hypr/wofi-random-prompt.sh
 chmod +x ~/.config/hypr/scripts/theme-switcher.sh
