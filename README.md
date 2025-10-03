@@ -1,4 +1,4 @@
-# MYARCHY
+# MYARCH
 An out of the box, omakase style, repository for me and my friends!
 A quick way to get Arch Linux up and running with everything you need!
 It also helps you learn by explaining what is going on!
