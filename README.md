@@ -26,3 +26,27 @@ This autodownloads...
   sublime text editor
   anydesk
   brave browser
+
+## To Do:
+	Configs
+		[ ] Hyprfamily configs
+		[ ] Waybar config
+		[ ] Swaync config
+		[ ] Kitty config
+		[ ] Wofi config
+		[ ] Btop config
+		[ ] Sublime config
+		[ ] Nautilus config
+	Misc
+		[ ] Theme switcher
+
+
+
+
+
+
+
+
+
+
+
