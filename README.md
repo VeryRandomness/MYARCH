@@ -38,6 +38,8 @@ This autodownloads...
 		[ ] Sublime config
 		[ ] Nautilus config
 	Misc
+		[X] Multiple themes (hyprland)
+		[ ] Multiple themes (waybar)
 		[ ] Theme switcher
 
 
