@@ -61,6 +61,7 @@ sleep $TIME
 chmod +x ~/.config/hypr/scripts/Weather.sh
 chmod +x ~/.config/hypr/startup.sh
 chmod +x ~/.config/hypr/wofi-random-prompt.sh
+chmod +x ~/.config/hypr/scripts/theme-switcher.sh
 # Gives some fun scripts privalges
 
 echo ""
