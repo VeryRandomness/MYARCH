@@ -4,7 +4,7 @@ set -e
 # The above command terminates the bash script if something goes wrong
 
 REPO="https://github.com/VeryRandomness/MYARCHY"
-INSTDIR="$HOME/.Dotfiles"
+INSTDIR="$HOME/Dotfiles"
 # The above two lines define what github repository to grab from and where all the files will be installed.
 # They aren't expressly needed but do make it nice
 TIME=5
