@@ -7,3 +7,22 @@ Use the following command to install MYARCHY after you have gone through the Arc
 ```
 curl -sL https://raw.githubusercontent.com/VeryRandomness/MYARCHY/main/initial-setup.sh | bash
 ```
+## Preloaded with:
+This autodownloads...
+  waybar
+  fastfetch
+  obsidian
+  swaync
+  syncthing
+  tailscale
+  kitty
+  nautilus
+  wofi
+  hyprpaper
+  hypridle
+  hyprshot
+  btop
+  spotify
+  sublime text editor
+  anydesk
+  brave browser
