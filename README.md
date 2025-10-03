@@ -14,7 +14,6 @@ This autodownloads...
   obsidian
   swaync
   syncthing
-  tailscale
   kitty
   nautilus
   wofi
