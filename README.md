@@ -9,7 +9,7 @@ Use the following command to install MYARCHY after you have gone through the Arc
 curl -sL https://raw.githubusercontent.com/VeryRandomness/MYARCH/main/initial-setup.sh | bash
 ```
 ## Preloaded with:
-This autodownloads...
+This autodownloads:
   waybar
   fastfetch
   obsidian
@@ -47,14 +47,3 @@ This autodownloads...
 		[ ] Nautilus config
 	Misc
 		[ ] Theme switcher
-
-
-
-
-
-
-
-
-
-
-
