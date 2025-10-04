@@ -6,7 +6,7 @@ It also helps you learn by explaining what is going on!
 ## How to install:
 Use the following command to install MYARCHY after you have gone through the Arch Linux start setup (recommend you use Archinstall for faster setup)
 ```
-curl -sL https://raw.githubusercontent.com/VeryRandomness/MYARCHY/main/initial-setup.sh | bash
+curl -sL https://raw.githubusercontent.com/VeryRandomness/MYARCH/main/initial-setup.sh | bash
 ```
 ## Preloaded with:
 This autodownloads...
