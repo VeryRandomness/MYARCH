@@ -27,6 +27,14 @@ This autodownloads...
   anydesk
   brave browser
 
+## Included Themes:
+	YoRha
+	catppucin-dark
+	catpuccin-light
+	cyber
+	dracula
+	zephyr
+
 ## To Do:
 	Configs
 		[ ] Hyprfamily configs
@@ -38,8 +46,6 @@ This autodownloads...
 		[ ] Sublime config
 		[ ] Nautilus config
 	Misc
-		[X] Multiple themes (hyprland)
-		[ ] Multiple themes (waybar)
 		[ ] Theme switcher
 
 
