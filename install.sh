@@ -46,7 +46,7 @@ sudo pacman -S --noconfirm \
   spotify-launcher otf-font-awesome lxsession impala --needed 
 # That big chunk downloads all the pacman packages needed
 yay -S --noconfirm \
-  sublime-text-4 anydesk-bin brave-bin
+  sublime-text-4 anydesk-bin brave-bin localsend-bin
 # That chunk downloads all AUR (Arch User Repository) packages needed
 
 echo "Configuration files about to be deployed..."
