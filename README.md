@@ -47,3 +47,4 @@ This autodownloads:
 		[ ] Nautilus config
 	Misc
 		[ ] Theme switcher
+    [ ] Finger Print Reader
