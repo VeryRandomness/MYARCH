@@ -43,7 +43,7 @@ sleep $TIME
 sudo pacman -S --noconfirm \
   waybar fastfetch obsidian swaync syncthing \
   kitty nautilus wofi hyprpaper hypridle hyprshot btop \
-  spotify-launcher otf-font-awesome lxsession --needed 
+  spotify-launcher otf-font-awesome lxsession impala --needed 
 # That big chunk downloads all the pacman packages needed
 yay -S --noconfirm \
   sublime-text-4 anydesk-bin brave-bin
