@@ -9,24 +9,7 @@ Use the following command to install MYARCH after you have gone through the Arch
 curl -sL https://raw.githubusercontent.com/VeryRandomness/MYARCH/main/initial-setup.sh | bash
 ```
 ## Preloaded with:
-This autodownloads:
-  waybar
-  fastfetch
-  obsidian
-  swaync
-  syncthing
-  kitty
-  nautilus
-  wofi
-  hyprpaper
-  hypridle
-  hyprshot
-  btop
-  spotify
-  sublime text editor
-  anydesk
-  brave browser
-  and more!
+This autodownloads many useful tools! you get waybar for a status bar, the hyprland family for your desktop environment, swaync as your notification manager, obsidian, spotify, and more!
 
 ## Included Themes:
 	YoRha
