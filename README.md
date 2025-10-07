@@ -26,6 +26,7 @@ This autodownloads:
   sublime text editor
   anydesk
   brave browser
+  and more!
 
 ## Included Themes:
 	YoRha
