@@ -31,5 +31,5 @@ This autodownloads many useful tools! you get waybar for a status bar, the hyprl
 		[ ] Nautilus config
 	Misc
 		[ ] Theme switcher
-    [ ] Finger Print Reader
+		[ ] Finger Print Reader
 		[ ] 
