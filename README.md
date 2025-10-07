@@ -32,4 +32,3 @@ This autodownloads many useful tools! you get waybar for a status bar, the hyprl
 	Misc
 		[ ] Theme switcher
 		[ ] Finger Print Reader
-		[ ] 
