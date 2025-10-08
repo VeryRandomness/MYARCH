@@ -4,6 +4,13 @@
 CACHE_FILE="/tmp/weather_cache"
 UPDATE_INTERVAL=60 # 1 minute in seconds
 
+# --- Dynamic Location Determination ---
+# 1. Get the current city name from a public IP geolocation service (ipinfo.io).
+#    --max-time 5 prevents the script from hanging on bad networks.
+#    tr -d '[:space:]' removes any leading/trailing whitespace/newlines.
+LOCATION_CITY=$(curl -s --max-time 5 "https://ipinfo.io/city" | tr -d '[:space:]')
+
+
 # wttr.in format string: 
 # %l (location), %c (condition symbol), %t (temperature), %f (temperature feels like), %C (condition text), %w (wind), %h (humidity), %p (percipitation (mm/3 hours)), %P (pressure Hpa), %u (UV index), %m (moon phase symbol), %M (moon day), %s (sunest time (local time)), %S (sunrise time (local time))
 # you need a "+" sign for everything after the ":"
@@ -11,7 +18,7 @@ UPDATE_INTERVAL=60 # 1 minute in seconds
 # if you want the tempuratre to be in metric add "&%m" after "%t" NOTE: This will cause other things in your string to not show.
 # an example could be "https://wttr.in/?format=%l:+%t+%f+%w+%s+%S" this shows the locations (%l) the temp (%t) feels like (%f) wind (%w) and sunrise/sunset (%s/%S respectively)
 # I would recommend just using this that just tell you the location (Handy with a laptop) and the temperature. If you don't want the location. simply remove the "%l" and replace it with "Temperature" or leave it blank.
-WTTR_URL="wttr.in?format=%l:+%t"
+WTTR_URL="wttr.in/$LOCATION_CITY?format=%l:+%t"
 
 # Check if cache file exists
 if [[ -f "$CACHE_FILE" ]]; then
