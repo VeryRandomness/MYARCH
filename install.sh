@@ -9,7 +9,7 @@ echo "Installing prerequisistes and building yay..."
 sleep $TIME
 # Displays and message and waits five seconds
 
-sudo pacman -S --needed base-devel --noconfirm
+sudo pacman -S --needed base-devel gti --noconfirm
 # Downloads a package with important tools
 
 if ! command -v yay &> /dev/null
@@ -32,7 +32,7 @@ then
     # Removes those pesky temporary files
 else
     echo "yay is already installed. Skipping installation."
-    sleep $Time
+    sleep $TIME
     # If yay exists then it skips this step
 fi
 # if termination
@@ -43,11 +43,19 @@ sleep $TIME
 sudo pacman -S --noconfirm \
   waybar fastfetch obsidian swaync syncthing \
   kitty nautilus wofi hyprpaper hypridle hyprshot btop \
-  spotify-launcher otf-font-awesome lxsession impala --needed 
+  spotify-launcher otf-font-awesome lxsession impala \
+  lutris thunderbird bleachbit easyeffects --needed 
 # That big chunk downloads all the pacman packages needed
 yay -S --noconfirm \
-  sublime-text-4 anydesk-bin brave-bin localsend-bin
-# That chunk downloads all AUR (Arch User Repository) packages needed
+  sublime-text-4 anydesk-bin brave-bin localsend-bin \
+  ferdium-bin tlpui czkawka-gui-bin snapd
+# Enable and install Snap packages (must be AFTER yay installs snapd)
+echo "Enabling and installing Snap packages..."
+sleep $TIME
+sudo systemctl enable --now snapd.socket
+# Wait for the socket to activate
+sleep $TIME
+sudo snap install celeste
 
 echo "Configuration files about to be deployed..."
 sleep $TIME
